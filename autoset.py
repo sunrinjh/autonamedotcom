@@ -11,7 +11,7 @@ def readSetting():
         quit()
 
 def getip():
-    _ip = requests.get('https://api.ipify.org').text
+    _ip = requests.get('https://api64.ipify.org').text
     return _ip
 
 def isChange(currentIp):
